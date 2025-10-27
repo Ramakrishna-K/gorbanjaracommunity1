@@ -1,0 +1,64 @@
+/* .profile-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-card {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 350px;
+  /* margin-right: 29px; 
+  margin: 2rem auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+} */
+
+.profile-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-card {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 350px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* 📱 Small phones (320px) */
+@media (max-width: 320px) {
+  .profile-container {
+    padding: 1rem;
+  }
+
+  .profile-card {
+    width: 260px;
+    padding: 1rem;
+  }
+}
+
+/* 📱 Slightly larger phones (375px) */
+@media (min-width: 321px) and (max-width: 375px) {
+  .profile-container {
+    padding: 1.2rem;
+  }
+
+  .profile-card {
+    width: 290px;
+    padding: 1.2rem;
+  }
+}
+
+/* 📱 Medium phones (425px) */
+@media (min-width: 376px) and (max-width: 425px) {
+  .profile-container {
+    padding: 1.5rem;
+  }
+
+  .profile-card {
+    width: 320px;
+    padding: 1.3rem;
+  }
+}
