@@ -32,7 +32,6 @@ banjara1/build/
 # ------------------------------
 # Firebase key (Sensitive file)
 # ------------------------------
-backend/config/serviceAccountKey.json
 
 # ------------------------------
 # Local and cache files

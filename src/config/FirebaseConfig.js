@@ -1,17 +1,37 @@
-// src/config/FirebaseConfig.js
+// // src/config/FirebaseConfig.js
+// import { initializeApp } from "firebase/app";
+// import { getAuth, GoogleAuthProvider } from "firebase/auth";
+
+// const firebaseConfig = {
+//   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+//   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+//   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+//   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+//   messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+//   appId: import.meta.env.VITE_FIREBASE_APP_ID,
+// };
+
+// // Optional: confirm variables loaded
+// console.log("🚀 Firebase API Key:", import.meta.env.VITE_FIREBASE_API_KEY);
+
+// const app = initializeApp(firebaseConfig);
+
+// export const auth = getAuth(app);
+// export const googleProvider = new GoogleAuthProvider();
+// // 
+
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBt0cccUstxLyoFoGrjr_Tlg3mrLw0kjI8",
-    authDomain: "gorbnjra.firebaseapp.com",
-    projectId: "gorbnjra",
-    storageBucket: "gorbnjra.firebasestorage.app",
-    messagingSenderId: "501048003703",
-    appId: "1:501048003703:web:41c5f510995d9a94918a72"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
-
 export const auth = getAuth(app);
 export const googleProvider = new GoogleAuthProvider();
