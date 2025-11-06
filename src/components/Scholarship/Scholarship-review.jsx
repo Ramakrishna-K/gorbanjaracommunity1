@@ -18,7 +18,7 @@ function ScholarshipReview() {
     });
 
     try {
-      const response = await fetch("http://localhost:3200/api/scholarship/apply", {
+      const response = await fetch("https://gorbanjaracommunity-production.up.railway.app/api/scholarship/apply", {
         method: "POST",
         body: dataToSend,
       });
