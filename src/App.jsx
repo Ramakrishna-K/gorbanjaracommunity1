@@ -518,7 +518,7 @@ function App() {
     }
 
     try {
-      const res = await fetch("http://localhost:3200/api/auth/register", {
+      const res = await fetch("https://gorbanjaracommunity-production.up.railway.app/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, phone, password }),
@@ -550,7 +550,7 @@ function App() {
     }
 
     try {
-      const res = await fetch("http://localhost:3200/api/auth/login", {
+      const res = await fetch("https://gorbanjaracommunity-production.up.railway.app/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ emailOrUserId, password }),
@@ -582,7 +582,7 @@ function App() {
       const result = await signInWithPopup(auth, googleProvider);
       const idToken = await result.user.getIdToken();
 
-      const res = await fetch("http://localhost:3200/api/auth/google-login", {
+      const res = await fetch("https://gorbanjaracommunity-production.up.railway.app/api/auth/google-login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ token: idToken }),
@@ -609,7 +609,7 @@ function App() {
   // ====================== PROTECTED NAVIGATION ======================
   const handleProtectedAction = async (path) => {
     try {
-      const data = await protectedFetch("http://localhost:3200/api/auth/protected");
+      const data = await protectedFetch("https://gorbanjaracommunity-production.up.railway.app/api/auth/protected");
       console.log("Protected data:", data);
       navigate(path);
     } catch (err) {
