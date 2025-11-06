@@ -15,7 +15,7 @@ function Profile() {
       }
 
       try {
-        const res = await fetch("http://localhost:3200/api/auth/profile", {
+        const res = await fetch("https://gorbanjaracommunity-production.up.railway.app/api/auth/profile", {
           headers: {
             "Authorization": `Bearer ${token}`,
           },
