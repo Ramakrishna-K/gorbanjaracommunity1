@@ -602,8 +602,15 @@ footer {
 @media (min-width: 375px) and (max-width: 480px) {
   .sec1 {
     /* height: auto; */
-    padding: 70 20 120px;
+    padding: 30px;
   }
+.slider-bg {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
   .content-wrapper {
