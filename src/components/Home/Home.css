@@ -602,7 +602,7 @@ footer {
 @media (min-width: 375px) and (max-width: 480px) {
   .sec1 {
     height: auto;
-    padding: 20px;
+    padding: 40px;
   }
 .slider-bg {
   width: 100%;
