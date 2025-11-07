@@ -31,7 +31,6 @@ h4 {
 
 .sec1 .overlay {
   position: absolute;
-  
   inset: 0;
   /* top:0; bottom:0; left:0; right:0 */
   background-color: rgba(0, 0, 0, 0.4);
@@ -538,7 +537,7 @@ footer {
 @media (min-width: 321px) and (max-width: 374px) {
   .sec1 {
     height: auto;
-    padding: 15px;
+    padding: 20px;
   }
 
   .content-wrapper {
@@ -602,9 +601,10 @@ footer {
 /* 🔹 Medium Phones (375px - 480px) */
 @media (min-width: 375px) and (max-width: 480px) {
   .sec1 {
-    height: auto;
-  padding: 18px;
+    /* height:auto ; */
+    padding: 30px;
   }
+
   .content-wrapper {
     margin-top: 120px;
   }
@@ -666,7 +666,6 @@ footer {
 @media (min-width: 481px) and (max-width: 768px) {
   /* Section 1 */
   .sec1 {
-   height: auto;
     padding: 40px 3px;
   }
 
@@ -930,3 +929,4 @@ footer {
     font-size: 1.9rem;
   }
 }
+
