@@ -478,6 +478,7 @@ function Home({ setShowRegisterPopup }) {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           width:"100%",
+           height: "600px"
           aspectRatio:"16/9",
         }}
       >
