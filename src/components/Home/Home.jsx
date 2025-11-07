@@ -477,6 +477,8 @@ function Home({ setShowRegisterPopup }) {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
+          width:"100%",
+          aspectRatio:"16/9",
         }}
       >
         <div className="overlay"></div>
