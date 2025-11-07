@@ -601,8 +601,8 @@ footer {
 /* 🔹 Medium Phones (375px - 480px) */
 @media (min-width: 375px) and (max-width: 480px) {
   .sec1 {
-    /* height: auto; */
-    padding: 30px;
+    height: auto;
+    padding: 20px;
   }
 .slider-bg {
   width: 100%;
