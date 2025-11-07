@@ -538,7 +538,7 @@ footer {
 @media (min-width: 321px) and (max-width: 374px) {
   .sec1 {
     height: auto;
-    padding: 20px;
+    padding: 15px;
   }
 
   .content-wrapper {
