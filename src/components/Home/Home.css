@@ -29,14 +29,15 @@ h4 {
 
 }
 
-/* .sec1 .overlay { */
-  /* position: absolute; */
-  /* inset: 0; */
+.sec1 .overlay {
+  position: absolute;
+  height:auto;
+  inset: 0;
   /* top:0; bottom:0; left:0; right:0 */
-  /* background-color: rgba(0, 0, 0, 0.4); */
+  background-color: rgba(0, 0, 0, 0.4);
   /* 50% black overlay */
-  /* z-index: 1; */
-/* } */
+  z-index: 1;
+}
 
 .sec1 .content-wrapper,
 .sec1 .buttons {
@@ -61,7 +62,7 @@ h4 {
 
 .sec1 p {
   font-size: 1.2rem;
-  color: black;
+  color: white;
 }
 
 .buttons {
