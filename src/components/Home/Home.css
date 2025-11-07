@@ -601,7 +601,7 @@ footer {
 /* 🔹 Medium Phones (375px - 480px) */
 @media (min-width: 375px) and (max-width: 480px) {
   .sec1 {
-    /* height: 100vh; */
+    height: 100vh;
     padding: 30px;
   }
 
